@@ -1,10 +1,10 @@
 # Level-Navi Agent
 
-本仓库是 *[Level-Navi Agent: A Benchmark and Framework for Chinese Web Search Agents](xxx)* 论文的官方仓库。
+This repository is the official repository for the paper Level-Navi Agent: A Benchmark and Framework for Chinese Web Search Agents.
 
 ## 🌐 项目简介
 
-Level-Navi Agent是一个开源通用的网络搜索agent框架，任何开源闭源模型都可以在本框架内进行部署。我们的agent能够拆分理解复杂问题，一步步迭代搜索互联网上的信息，直到能够回答用户最初的问题。
+Level-Navi Agent is an open-source, general-purpose web search agent framework where any open or closed-source model can be deployed. Our agent is capable of breaking down and understanding complex questions, iteratively searching for information on the internet step by step, until it can answer the user's original question.
 
 <div style="text-align: center;">
     <figure style="display: inline-block; text-align: center;">
@@ -13,7 +13,7 @@ Level-Navi Agent是一个开源通用的网络搜索agent框架，任何开源�
     </figure>
 </div>
 
-为了全面评估各类模型在网络搜索任务下的性能，我们提供了一个开源数据集--Web24 Dataset, 我们的数据集的总样本数为481，所有的问题都来源于五大领域，财经，游戏，体育，电影，事件。我们的分类来源于平时会在网络上进行搜索的场景。为了避免模型内部的知识对框架的干扰，我们的数据集的主要信息来源为新闻（2024年12月前），并且保证有可信度较高的信息来源链接。问题分为简单，条件，比较和多跳，涵盖了多样提问场景。
+To comprehensively evaluate the performance of various models on web search tasks, we provide an open-source dataset - Web24 Dataset. The total number of samples in our dataset is 481, and all questions come from five major domains: finance, gaming, sports, movies, and events. Our classification comes from scenarios that people usually search for on the internet. To avoid interference from the model's internal knowledge to the framework, the main source of our dataset is news (before December 2024), and we ensure that there are credible information source links. Questions are divided into simple, conditional, comparative, and multi-hop, covering a variety of questioning scenarios.
 
 <div style="text-align: center;">
     <figure style="display: inline-block; text-align: center;">
@@ -22,7 +22,8 @@ Level-Navi Agent是一个开源通用的网络搜索agent框架，任何开源�
     </figure>
 </div>
 
-这里我们提供了部分模型的测试结果，更全面的实验和分析可以在[论文](xxx)中获取。
+Here we provide some model test results, and more comprehensive experiments and analysis can be obtained in the paper.
+
 
 | Model               | Few-shot    | $S_{final}$ | $S_{co}$ | $S_{rele}$ | $S_{simi}$ | $S_c$ | Pass rate |
 |---------------------|-------------|-------------|----------|------------|------------|-------|-----------|
@@ -41,67 +42,67 @@ Level-Navi Agent是一个开源通用的网络搜索agent框架，任何开源�
 | **Llama3.1-8B**     | zero-shot   | 37.02       | 0.30     | 0.74       | 0.51       | 3.60  | 0.88      |
 |                     | three-shot  | 32.45       | 0.27     | 0.61       | 0.46       | 3.89  | 0.93      |
 
-## 📝 快速开始
+## 📝 Quick Start
 
 按照以下步骤快速启动项目：
 
-### 1. 拉取项目
+### 1. Clone the Project
 
-首先，克隆项目到本地：
+Follow these steps to quickly start the project:
 
 ```bash
-git clone 项目地址
+git clone [project address]
 ```
 
-### 2. 建立环境
+### 2. Set Up Environment
 
-使用 conda 创建 Python 3.11 的虚拟环境：
+Use conda to create a Python 3.11 virtual environment:
 
 ```bash
 conda create --name ai_search python=3.11
 ```
 
-### 3. 安装依赖
+### 3. Install Dependencies
 
-进入项目目录并安装依赖：
+Enter the project directory and install dependencies:
 
 ```bash
-cd 项目目录
+cd [project directory]
 pip install -r requirements.txt
 ```
 
-### 4. 配置搜索引擎API
+### 4. Configure Search Engine API
 
-获取[Bing API Key](https://www.microsoft.com/en-us/bing/apis/bing-web-search-api)，并配置到[配置文件](config/.env)(`BING_API`)中
+Obtain a [Bing API Key](https://www.microsoft.com/en-us/bing/apis/bing-web-search-api)，and configure it in the configuration file(config/.env)(`BING_API`)
 
-### 5. API/本地模型
+### 5. API/Local Mode
 
-#### API部署
-获取OpenAI API Key，选择模型名称，配置到[配置文件](config/.env)(`API_KEY`, `MODEL_NAME`)中
+#### API Deployment
+Obtain an OpenAI API Key，choose a model name, and configure it in the [configuration file](config/.env)(`API_KEY`, `MODEL_NAME`)
 
-#### 本地模型部署
-使用vllm来以服务器形式部署本地模型
+#### Local Model Deployment
+Use vllm to deploy the local model in server mode.
 
-[脚本文件](example/vllm_openai.sh)中配置模型名称/路径 `MODEL_NAME_OR_PATH`
+Configure the model name/path MODEL_NAME_OR_PATH [script file](example/vllm_openai.sh) 
 
-[配置文件](config/.env)中更改`API_BASE='http://localhost:8001/v1'`
+Change  API_BASE='http://localhost:8001/v1' in the [configuration file](config/.env)
 
-启动vllm服务：
+Start the vllm service:
 ```bash
 cd example
 bash vllm_openai.sh
 ```
 
-### 6. 启动测试
+### 6. Start Testing
 
-激活虚拟环境并运行示例代码进行测试：
+Activate the virtual environment and run the example code for testing:
 
 ```bash
 cd example 
 python terminal.py
 ```
 
-### 测试示例
+### Test Example
 
 ```
 输入：北京今天的天气怎么样？
@@ -168,41 +169,40 @@ OpenAI o1 模型通过强化学习和更长的内部思维链，显著提升了�
 ```
 ## 🏆 Benchmark
 
-### 🚶🏼‍♂ 运行测试
+### 🚶🏼‍♂ Running Tests
 
-评估开源模型脚本：[open_model_terminal.sh](example/run_benchmark/open_model_terminal.sh)
+Script for evaluating open-source models：[open_model_terminal.sh](example/run_benchmark/open_model_terminal.sh)
 
-设置运行参数：
+Set running parameters：
 
-- `MODEL_NAME_OR_PATH` 模型路径/名称
-- `ALL_GPUS` 硬件总数
-- `NUM_SERVICES` vllm后端服务数量
-- `GPUS_PER_SERVICE` 每个服务使用的GPU数量
+- `MODEL_NAME_OR_PATH` Model path/name
+- `ALL_GPUS` Total number of hardware units
+- `NUM_SERVICES` Number of vllm backend services
+- `GPUS_PER_SERVICE` Number of GPUs used per service
 
 ```bash
 cd example/run_benchmark
 bash open_model_terminal.sh
 ```
 
-运行结果储存路径：[data/metrics_rlts](data/metrics_rlts)
+Results are stored at：[data/metrics_rlts](data/metrics_rlts)
 
-### 🔍️ 评估
+### 🔍️ Evaluation
 
-选择作为评估器的大模型名称，并配置到[配置文件](config/.env)(`EVALUATOR_NAME`)中
+Choose the name of the large model to be used as the evaluator and configure it in the [configuration file](config/.env)(`EVALUATOR_NAME`)
 
-评估脚本：[llm_eval_terminal.sh](example/eval/llm_eval_terminal.sh)
+Evaluation script：[llm_eval_terminal.sh](example/eval/llm_eval_terminal.sh)
 
-评估所有处于`data/metrics_rlts`下的jsonl文件
+Evaluate all jsonl files under `data/metrics_rlts`
 
 ```bash
 cd example/eval
 bash llm_eval_terminal.sh
 ```
 
-## ✨️ 引用
+## ✨️ Citation
 
-如果我们的项目对您的研究/工作有启发，请以如下格式引用：
-
+If our project has inspired your research/work, please cite it in the following format:
 ```
 @article{chen2024mindsearch,
   title={},
