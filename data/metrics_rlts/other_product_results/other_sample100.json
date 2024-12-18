@@ -1,0 +1,1002 @@
+[
+    {
+        "question": "2024年10月份债券发行规模与上月相比有何变化？",
+        "answer": "10月份债券发行规模环比减少，特别是地方政府债降幅较为明显。共计发行债券3.7万亿元，环比降低20.8%，同比降低18.8%。其中，地方政府债发行6831亿元，环比大幅减少47%。",
+        "response": "",
+        "type": "comparison",
+        "source": "news",
+        "domain": "finance",
+        "time": "2024.11.22",
+        "url": "https://www.financialnews.com.cn/2024-11/22/content_412983.html"
+    },
+    {
+        "question": "橄榄球和美式足球的装备中，哪个包括的保护装备多。",
+        "answer": "橄榄球运动员通常穿戴较少的保护装备,而美式足球运动员则穿戴全套的保护装备,包括头盔、肩垫和护膝。",
+        "response": "",
+        "type": "comparison",
+        "source": "news",
+        "domain": "sports",
+        "time": "2024.03.03",
+        "url": "https://baijiahao.baidu.com/s?id=1792486028925013449&wfr=spider&for=pc"
+    },
+    {
+        "question": "开发制作战地5的工作室是哪个国家的 ",
+        "answer": "EA DICE位于瑞典",
+        "response": "",
+        "type": "multi-hop",
+        "source": "knowledge",
+        "domain": "gaming",
+        "time": "2018.11.20",
+        "url": " https://baike.baidu.com/item/EA%20DICE/0?fromModule=lemma_inlink"
+    },
+    {
+        "question": "2024年普惠金融发展专项资金总额是多少？",
+        "answer": "合计约107.3亿元。",
+        "response": "",
+        "type": "condition",
+        "source": "news",
+        "domain": "finance",
+        "time": "2024.10.29",
+        "url": "https://www.financialnews.com.cn/2024-10/29/content_410961.html"
+    },
+    {
+        "question": "提出以科技金融为首的五大篇文章的会议是？",
+        "answer": "2023年10月末的中央金融工作会议",
+        "response": "",
+        "type": "multi-hop",
+        "source": "news",
+        "domain": "finance",
+        "time": "2024.11.04",
+        "url": "https://www.financialnews.com.cn/2024-11/04/content_411398.html"
+    },
+    {
+        "question": "2024年亚洲杯的参赛队伍数量与上一届相比有何变化？",
+        "answer": "2024年亚洲杯的参赛队伍数量从上一届的24支增加到了28支。",
+        "response": "",
+        "type": "comparison",
+        "source": "news",
+        "domain": "sports",
+        "time": "2024.11.22",
+        "url": "https://www.afcasiancup.com/teams"
+    },
+    {
+        "question": "在游泳比赛中,自由泳和蛙泳的划水方式哪个,划水动作连续且快速？",
+        "answer": "游泳比赛中,自由泳允许运动员使用任何泳姿,但最常见的是爬泳,划水动作连续且快速。",
+        "response": "",
+        "type": "comparison",
+        "source": "knowledge",
+        "domain": "sports",
+        "time": "2024.08.27",
+        "url": "https://baijiahao.baidu.com/s?id=1808549403295832148&wfr=spider&for=pc"
+    },
+    {
+        "question": "最终幻想系列数字正作和GTA系列数字正作，哪个数量多？",
+        "answer": "最终幻想数字正作共16部，高于GTA系列",
+        "response": "",
+        "type": "comparison",
+        "source": "knowledge",
+        "domain": "gaming",
+        "time": "2024.11.1",
+        "url": "https://baike.baidu.com/item/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B3/74508"
+    },
+    {
+        "question": "2024春节档票房第一是哪部电影？",
+        "answer": "《热辣滚烫》",
+        "response": "",
+        "type": "condition",
+        "source": "news",
+        "domain": "movie",
+        "time": "2024.11.8",
+        "url": "https://roll.sohu.com/a/758331686_114941"
+    },
+    {
+        "question": "我国的第三艘航母是开展首次航行试验的机构成立的时间是什么时候",
+        "answer": "江南造船（集团）有限责任公司成立于1990年7月2日",
+        "response": "",
+        "type": "multi-hop",
+        "source": "news",
+        "domain": "event",
+        "time": "2024.5.1",
+        "url": "https://military.cnr.cn/zdgz/20240501/t20240501_526690424.shtml"
+    },
+    {
+        "question": "今年是中国和阿联酋建交多少年",
+        "answer": "40周年",
+        "response": "",
+        "type": "condition",
+        "source": "knowledge",
+        "domain": "event",
+        "time": "2024.10.11",
+        "url": "https://www.gov.cn/yaowen/liebiao/202411/content_6984310.htm"
+    },
+    {
+        "question": "2028年奥运会的举办地是否曾经举办过奥运会？",
+        "answer": "洛杉矶曾经举办过两次奥运会,分别是在1932年和1984年的夏季奥运会。",
+        "response": "",
+        "type": "multi-hop",
+        "source": "news",
+        "domain": "sports",
+        "time": "2024.08.03",
+        "url": "https://www.163.com/dy/article/J8MNB2VD05565Y17.html"
+    },
+    {
+        "question": "《破·地狱》与《明日战记》相比，哪个香港票房高？",
+        "answer": "《破·地狱》",
+        "response": "",
+        "type": "comparison",
+        "source": "news",
+        "domain": "movie",
+        "time": "2024.11.23",
+        "url": "https://www.toutiao.com/article/7440405269827355146/?upstream_biz=doubao&source=m_redirect"
+    },
+    {
+        "question": "2024年奥运会和亚运会的参赛项目数量哪个多？",
+        "answer": "亚运会。",
+        "response": "",
+        "type": "comparison",
+        "source": "news",
+        "domain": "sports",
+        "time": "2023.09.15",
+        "url": "http://henan.china.com.cn/edu/2023-09/15/content_42522317.htm"
+    },
+    {
+        "question": "与2024年9月份相比，2024年10月份的债券发行规模有何变化？",
+        "answer": "与9月份相比，10月份的债券发行规模环比降低了20.8%，同比降低了18.8%",
+        "response": "",
+        "type": "comparison",
+        "source": "news",
+        "domain": "finance",
+        "time": "2024.11.22",
+        "url": "https://www.financialnews.com.cn/2024-11/22/content_412983.html"
+    },
+    {
+        "question": "由小戴夫·德里克执导，奥丽伊·卡瓦洛、巨石强森回归配音的迪士尼动画电影在中国的上映日期是？",
+        "answer": "《海洋奇缘2》国内定档11月29日",
+        "response": "",
+        "type": "multi-hop",
+        "source": "news",
+        "domain": "movie",
+        "time": "2024.10.15",
+        "url": "https://www.ali213.net/news/html/2024-10/874197.html"
+    },
+    {
+        "question": "发表《以美丽中国建设全面推进人与自然和谐共生的现代化》的期刊的日期是？",
+        "answer": "《求是》2024年1月1日出版的第1期",
+        "response": "",
+        "type": "multi-hop",
+        "source": "news",
+        "domain": "event",
+        "time": "2024.1.1",
+        "url": "https://china.cnr.cn/news/sz/20240101/t20240101_526543217.shtml"
+    },
+    {
+        "question": "周杰伦为哪部电影创作了《不能说的秘密》这首主题曲？",
+        "answer": "周杰伦为电影《不能说的秘密》创作了同名主题曲《不能说的秘密》。",
+        "response": "",
+        "type": "condition",
+        "source": "knowledge",
+        "domain": "movie",
+        "time": "",
+        "url": "https://baijiahao.baidu.com/s?id=1771466237668533894&wfr=spider&for=pc"
+    },
+    {
+        "question": "刺客信条奥德赛什么时候发布的 ",
+        "answer": "2018.10.5",
+        "response": "",
+        "type": "simple",
+        "source": "knowledge",
+        "domain": "gaming",
+        "time": "2018.10.5",
+        "url": " https://baike.baidu.com/item/%E5%88%BA%E5%AE%A2%E4%BF%A1%E6%9D%A1%EF%BC%9A%E5%A5%A5%E5%BE%B7%E8%B5%9B/22622820"
+    },
+    {
+        "question": "2024年最新世界斯诺克前16排名的中国球员中，第一次进入前16的是谁？",
+        "answer": "在世界斯诺克前16排名中，肖国栋第一场进入前16名",
+        "response": "",
+        "type": "multi-hop",
+        "source": "news",
+        "domain": "sports",
+        "time": "2024-11-13",
+        "url": "https://news.sohu.com/a/826313437_121924582"
+    },
+    {
+        "question": "2024国考笔试分数线什么时候发布的",
+        "answer": "2024年1月13日",
+        "response": "",
+        "type": "simple",
+        "source": "knowledge",
+        "domain": "event",
+        "time": "2024.1.14",
+        "url": "https://www.thepaper.cn/newsDetail_forward_26011603"
+    },
+    {
+        "question": "安徽省的高考人数是2024年多还是2023年多",
+        "answer": "2024年人数更多",
+        "response": "",
+        "type": "comparison",
+        "source": "news",
+        "domain": "event",
+        "time": "2024.8.8",
+        "url": "https://m.eol.cn/gaokao/202406/t20240606_2614820.shtml"
+    },
+    {
+        "question": "中国乒乓球队历史上首枚混双奥运金牌的击败国家的首都是",
+        "answer": "朝鲜的首都是平壤",
+        "response": "",
+        "type": "multi-hop",
+        "source": "news",
+        "domain": "event",
+        "time": "2024.7.30",
+        "url": "https://sports.news.cn/20240731/aa99885a2c7d48faaad6454091389bf0/c.html"
+    },
+    {
+        "question": "2024年第三季度全国新发放商业性个人住房贷款加权平均利率与第二季度相比谁更高",
+        "answer": "第二季度更高，第三季度为3.33%，相较第二季度下降了0.12%",
+        "response": "",
+        "type": "comparison",
+        "source": "news",
+        "domain": "finance",
+        "time": "2024.11.04",
+        "url": "https://www.financialnews.com.cn/2024-11/04/content_411395.html"
+    },
+    {
+        "question": "2024年国内前三季度出游人次哪个季度最高",
+        "answer": "第三季度最高",
+        "response": "",
+        "type": "comparison",
+        "source": "news",
+        "domain": "event",
+        "time": "2024.10.21",
+        "url": "https://zwgk.mct.gov.cn/zfxxgkml/tjxx/202410/t20241021_955808.html"
+    },
+    {
+        "question": "首发加入XGP，但是遇到了登陆问题，许多玩家卡在登陆界面，无法进入游戏，这使得Steam好评率仅为17%的游戏的修复补丁是由谁发布？",
+        "answer": "微软发布补丁紧急修复《微软模拟飞行》的问题",
+        "response": "",
+        "type": "multi-hop",
+        "source": "news",
+        "domain": "gaming",
+        "time": "2024.11.25",
+        "url": "https://www.3dmgame.com/news/202411/3909365.html"
+    },
+    {
+        "question": "大熊猫“福宝”在四川与公众见面是哪一天",
+        "answer": "2024年6月12日",
+        "response": "",
+        "type": "condition",
+        "source": "knowledge",
+        "domain": "event",
+        "time": "2024.6.13",
+        "url": "https://m.gmw.cn/2024-06/13/content_1303762088.htm"
+    },
+    {
+        "question": "开年密集反腐，凸显中国反腐败工作的哪三个动向",
+        "answer": "第一是零容忍态度反腐惩恶，第二是重拳反腐切中“重点”，第三是退休不是进了“保险箱”。",
+        "response": "",
+        "type": "condition",
+        "source": "news",
+        "domain": "event",
+        "time": "2024.1.6",
+        "url": "http://news.china.com.cn/2024-01/07/content_116924220.shtml"
+    },
+    {
+        "question": "政策性金融债包括哪些债券？",
+        "answer": "政策性金融债涵盖国开债、农发债和口行债",
+        "response": "",
+        "type": "simple",
+        "source": "knowledge",
+        "domain": "finance",
+        "time": "2024.09.30",
+        "url": "https://finance.china.com.cn/money/fund/20240930/6170730.shtml"
+    },
+    {
+        "question": "由荷兰独立工作室Feel Free Games开发的多人种田游戏《露玛岛》现已正式上线Steam，首发折扣价多少元？",
+        "answer": "首发折扣价46.4元",
+        "response": "",
+        "type": "simple",
+        "source": "news",
+        "domain": "gaming",
+        "time": "2024.11.21",
+        "url": "https://dj.sina.com.cn/article/ncwvitn1379952.shtml"
+    },
+    {
+        "question": " 第四届中国游戏创新大赛颁奖典礼在哪里举行？",
+        "answer": "上海",
+        "response": "",
+        "type": "simple",
+        "source": "news",
+        "domain": "gaming",
+        "time": "2024.7.27",
+        "url": "https://games.sina.com.cn/2024-07-28/detail-i-incfsspx5126289.shtml"
+    },
+    {
+        "question": "2024年世界互联网大会乌镇峰会的主题是什么？",
+        "answer": "2024年世界互联网大会乌镇峰会的主题是“拥抱以人为本、智能向善的数字未来——携手构建网络空间命运共同体”。",
+        "response": "",
+        "type": "simple",
+        "source": "knowledge",
+        "domain": "finance",
+        "time": "2024。11.20",
+        "url": "https://www.financialnews.com.cn/2024-11/20/content_412815.html"
+    },
+    {
+        "question": "2024年第三季度财报，腾讯的游戏收入和网易游戏收入比谁高？",
+        "answer": "腾讯网络游戏业务518亿元，高于网易游戏的209亿元",
+        "response": "",
+        "type": "comparison",
+        "source": "news",
+        "domain": "gaming",
+        "time": "2024.11.14",
+        "url": "https://news.qq.com/rain/a/20241114A09KV700"
+    },
+    {
+        "question": "在世界杯足球赛历史上,哪个国家获得的冠军次数最多？",
+        "answer": "巴西国家足球队在世界杯足球赛历史上获得的冠军次数最多。",
+        "response": "",
+        "type": "simple",
+        "source": "news",
+        "domain": "sports",
+        "time": "2024.03.24",
+        "url": "https://baijiahao.baidu.com/s?id=1794387438489031954&wfr=spider&for=pc"
+    },
+    {
+        "question": "11月宏观调控需要关注哪些突出问题？",
+        "answer": "当前宏观调控需要关注有效需求不足、社会预期偏弱、物价低位运行等突出问题。",
+        "response": "",
+        "type": "simple",
+        "source": "news",
+        "domain": "finance",
+        "time": "2024.11.12",
+        "url": "https://www.financialnews.com.cn/2024-11/12/content_412152.html"
+    },
+    {
+        "question": "体操比赛中,男子和女子项目的评分标准谁更侧重于柔韧性？",
+        "answer": "女子项目的评分标准更侧重于柔韧性。",
+        "response": "",
+        "type": "comparison",
+        "source": "news",
+        "domain": "sports",
+        "time": "2023.09.14",
+        "url": "http://www.centv.cn/p/478558.html"
+    },
+    {
+        "question": "游戏明日之后里面有几大势力 ",
+        "answer": " 贸易联盟，方舟科技会，帝国，教会，破晓，方舟骑士团",
+        "response": "",
+        "type": "condition",
+        "source": "news",
+        "domain": "gaming",
+        "time": "2018.11.6",
+        "url": " https://baike.baidu.com/item/%E6%98%8E%E6%97%A5%E4%B9%8B%E5%90%8E/22337419"
+    },
+    {
+        "question": "《当哒当》动画引进国内采用了另一个译名是什么？",
+        "answer": "《胆大党》",
+        "response": "",
+        "type": "simple",
+        "source": "news",
+        "domain": "movie",
+        "time": "2024.10.18",
+        "url": "https://www.ali213.net/news/html/2024-10/875061.html"
+    },
+    {
+        "question": "哪两个公司正在合作开发一款《怪物猎人》IP的移动端产品？",
+        "answer": "腾讯和卡普空",
+        "response": "",
+        "type": "simple",
+        "source": "news",
+        "domain": "gaming",
+        "time": "2024.11.14",
+        "url": "http://www.gamelook.com.cn/2024/11/558181"
+    },
+    {
+        "question": "2024年世界举重锦标赛的总奖金是多少？",
+        "answer": "10万美元。",
+        "response": "",
+        "type": "simple",
+        "source": "news",
+        "domain": "sports",
+        "time": "2024.06.02",
+        "url": "https://zhidao.baidu.com/question/1906459624361482340.html"
+    },
+    {
+        "question": "我国首次获取完整的月球X射线图像是用什么仪器获取的",
+        "answer": "是由EP卫星上的“风行天”X射线望远镜(FXT)获得的",
+        "response": "",
+        "type": "simple",
+        "source": "news",
+        "domain": "event",
+        "time": "2024.9.17",
+        "url": "https://news.cctv.cn/2024/09/17/ARTIwt7UepTTSmwIz0Has8Hp240917.shtml"
+    },
+    {
+        "question": "多少名全国五一劳动奖章获得者入选2024年“最美职工”",
+        "answer": "9名",
+        "response": "",
+        "type": "simple",
+        "source": "knowledge",
+        "domain": "event",
+        "time": "2024.4.30",
+        "url": "https://www.chinanews.com/gn/2024/04-30/10209342.shtml"
+    },
+    {
+        "question": "截至今年黄河的不断流时间是哪个部门统计的",
+        "answer": "水利部黄河水利委员会",
+        "response": "",
+        "type": "condition",
+        "source": "news",
+        "domain": "event",
+        "time": "2024.8.12",
+        "url": "http://www.news.cn/20240812/2169e2d459d34540b52c47efbc931978/c.html"
+    },
+    {
+        "question": "大卫·雷奇宣称不会执导哪一部系列电影？",
+        "answer": "《侏罗纪世界》",
+        "response": "",
+        "type": "simple",
+        "source": "news",
+        "domain": "movie",
+        "time": "2024.2.12",
+        "url": "https://www.ali213.net/news/html/2024-2/816883.html"
+    },
+    {
+        "question": "以“在变局中前航”为主题的会议的举办时间是？",
+        "answer": "第三届国际金融领袖投资峰会举办于2024年11月19日",
+        "response": "",
+        "type": "multi-hop",
+        "source": "knowledge",
+        "domain": "finance",
+        "time": "2024.11.19",
+        "url": "https://www.hkma.gov.hk/gb_chi/news-and-media/press-releases/2024/11/20241119-8/"
+    },
+    {
+        "question": "科幻动作电影《创：战纪》续集《创：战神》的音乐由哪个乐队负责？",
+        "answer": "九寸钉乐队",
+        "response": "",
+        "type": "simple",
+        "source": "news",
+        "domain": "movie",
+        "time": "2024.11.19",
+        "url": "https://www.3dmgame.com/news/202411/3908919.html"
+    },
+    {
+        "question": "2024年10月21发布的贷款市场报价利率（LPR）5年期与1年期相比如何？",
+        "answer": "5年期以上为3.6%，1年期为3.1%，5年期及以上更高。",
+        "response": "",
+        "type": "comparison",
+        "source": "news",
+        "domain": "finance",
+        "time": "2024.10.22",
+        "url": "https://www.financialnews.com.cn/2024-10/22/content_410471.html"
+    },
+    {
+        "question": "数字产业化规模与产业数字化规模相比谁的规模更大？",
+        "answer": "产业数字化规模更大。",
+        "response": "",
+        "type": "comparison",
+        "source": "knowledge",
+        "domain": "finance",
+        "time": "2024，10.29",
+        "url": "https://www.financialnews.com.cn/2024-10/29/content_410999.html"
+    },
+    {
+        "question": "在足球历史上,哪位球员的国际比赛进球数最多？",
+        "answer": "克里斯蒂亚诺·罗纳尔多。",
+        "response": "",
+        "type": "simple",
+        "source": "news",
+        "domain": "sports",
+        "time": "2022.05.03",
+        "url": "https://baijiahao.baidu.com/s?id=1731815195345643456&wfr=spider&for=pc"
+    },
+    {
+        "question": "2024年1至10月，我国对外非金融类直接投资与我国对外承包工程完成营业额相比哪个更大？",
+        "answer": "我国对外承包工程完成营业额更大",
+        "response": "",
+        "type": "comparison",
+        "source": "news",
+        "domain": "finance",
+        "time": "2024.11.22",
+        "url": "https://www.financialnews.com.cn/2024-11/22/content_412973.html"
+    },
+    {
+        "question": "截至2024年9月20日，政金债的债券占利率债存量品种结构的百分比是多少？",
+        "answer": "截至2024年9月20日，政金债的债券规模超25万亿元，占利率债存量品种结构的24.9%",
+        "response": "",
+        "type": "condition",
+        "source": "news",
+        "domain": "finance",
+        "time": "2024.09.30",
+        "url": "https://finance.china.com.cn/money/fund/20240930/6170730.shtml"
+    },
+    {
+        "question": "2024 年暑期档票房排名第四的影片是哪部？",
+        "answer": "《云边有个小卖部》",
+        "response": "",
+        "type": "condition",
+        "source": "news",
+        "domain": "movie",
+        "time": "2024.11.23",
+        "url": "http://m.163.com/dy/article/JBGD0MJU0530W6DQ.html"
+    },
+    {
+        "question": "网易游戏2024年第三季度财报中，《魔兽世界》和《炉石传说》的日活增长谁高？",
+        "answer": "《炉石传说》的日活增长更高。",
+        "response": "",
+        "type": "comparison",
+        "source": "news",
+        "domain": "gaming",
+        "time": "2024.11.20",
+        "url": "https://www.msn.cn/zh-cn/news/other/%E7%BD%91%E6%98%93q3%E8%90%A5%E6%94%B6%E5%87%80%E5%88%A9-%E5%8F%8C%E9%99%8D-%E5%A4%9A%E6%AC%BE%E9%87%8D%E7%A3%85%E5%82%A8%E5%A4%87%E6%B8%B8%E6%88%8F%E7%8E%B0%E6%96%B0%E8%BF%9B%E5%B1%95-%E6%9C%BA%E6%9E%84%E7%9C%8B%E5%A5%BD%E5%85%B6q4%E4%B8%9A%E7%BB%A9/ar-AA1u6Rvu?ocid=BingNewsSerp"
+    },
+    {
+        "question": "2024年1月与去年同期相比新增了多少人民币贷款？",
+        "answer": "同比多增162亿元",
+        "response": "",
+        "type": "comparison",
+        "source": "news",
+        "domain": "finance",
+        "time": "2027.02.17",
+        "url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/macro/rptid/761487973963/index.phtml"
+    },
+    {
+        "question": "电影《神奇女侠 3》的剧本由谁编写？",
+        "answer": "派蒂·杰金斯",
+        "response": "",
+        "type": "simple",
+        "source": "knowledge",
+        "domain": "movie",
+        "time": "2022.12.9",
+        "url": "https://baijiahao.baidu.com/s?id=1751719200510237640&wfr=spider&for=pc"
+    },
+    {
+        "question": "在网球比赛中,如果发球直接得分被称为什么？",
+        "answer": "'Ace球'。",
+        "response": "",
+        "type": "condition",
+        "source": "knowledge",
+        "domain": "sports",
+        "time": "2024.11.03",
+        "url": "https://baijiahao.baidu.com/s?id=1814669323343099683&wfr=spider&for=pc"
+    },
+    {
+        "question": "恐怖片《招魂4》由谁来撰写剧本？",
+        "answer": "大卫·莱斯利·约翰逊-麦戈德里克",
+        "response": "",
+        "type": "simple",
+        "source": "news",
+        "domain": "movie",
+        "time": "2024.11.22",
+        "url": "https://ent.sina.com.cn/m/f/2024-10-30/doc-incuhwic8034819.shtml"
+    },
+    {
+        "question": "《热辣滚烫》和《抓娃娃》哪部电影的国内票房更高？",
+        "answer": "《热辣滚烫》的国内票房更高。",
+        "response": "",
+        "type": "comparison",
+        "source": "knowledge",
+        "domain": "movie",
+        "time": "2024.11.24",
+        "url": "https://m.douban.com/doulist/157523791/"
+    },
+    {
+        "question": "2024年6月黄金平均价格和7月相比哪个更高",
+        "answer": "六月中国金价格平均值为¥540.83每克，七月中国金价格平均值为：¥558.57每克，七月更高",
+        "response": "",
+        "type": "comparison",
+        "source": "news",
+        "domain": "event",
+        "time": "2024.11.19",
+        "url": "https://www.exchange-rates.org/zh/precious-metals/gold-price/china/2024"
+    },
+    {
+        "question": "截至2024年6月末，张家界市金融机构共支持国家储备林建设项目有多少？审批授信额度为多少？贷款余额多少？。",
+        "answer": "截至2024年6月末，张家界市金融机构共支持国家储备林建设项目5个，审批授信额度34.9亿元，贷款余额14.09亿元。",
+        "response": "",
+        "type": "condition",
+        "source": "news",
+        "domain": "finance",
+        "time": "2024.11.01",
+        "url": "https://www.financialnews.com.cn/2024-11/01/content_411300.html"
+    },
+    {
+        "question": "今年中国最新的载人飞船的发射时间是？",
+        "answer": "神舟十九号发射于2024年10月30日",
+        "response": "",
+        "type": "multi-hop",
+        "source": "news",
+        "domain": "event",
+        "time": "2024.10.30",
+        "url": "https://news.cctv.com/2024/10/31/ARTIEAhzTk8LbMBulCPONlty241031.shtml"
+    },
+    {
+        "question": "2024年F1赛车赛季有多少个分站赛？",
+        "answer": "2024年F1赛车赛季有24个分站赛。",
+        "response": "",
+        "type": "simple",
+        "source": "news",
+        "domain": "sports",
+        "time": "2024.01.04",
+        "url": "https://www.dongchedi.com/article/7320151956574814770"
+    },
+    {
+        "question": "我国制造业总体规模连续多少年世界第一了？",
+        "answer": "14年",
+        "response": "",
+        "type": "condition",
+        "source": "news",
+        "domain": "event",
+        "time": "2024.2.22",
+        "url": "https://www.gov.cn/yaowen/liebiao/202402/content_6933130.htm"
+    },
+    {
+        "question": "2024年世界柔道锦标赛上,哪个国家获得了最多的金牌？？",
+        "answer": "日本柔道队获得了最多的金牌。",
+        "response": "",
+        "type": "simple",
+        "source": "news",
+        "domain": "sports",
+        "time": "2024.08.04",
+        "url": "https://m.sohu.com/a/798732671_121924582"
+    },
+    {
+        "question": "张艺谋导演的电影中哪部获得了金熊奖？",
+        "answer": "红高粱",
+        "response": "",
+        "type": "condition",
+        "source": "knowledge",
+        "domain": "movie",
+        "time": "2023.12.15",
+        "url": "https://www.douban.com/group/topic/299217407/?_i=2264940v1m2euv"
+    },
+    {
+        "question": "电影《少年派的奇幻漂流》中，少年派和哪种动物一起在海上漂流？",
+        "answer": "少年派和一只孟加拉虎一起在海上漂流",
+        "response": "",
+        "type": "condition",
+        "source": "news",
+        "domain": "movie",
+        "time": "2024.11.21",
+        "url": "https://cul.sohu.com/a/828765714_121924583"
+    },
+    {
+        "question": "以“民族大联欢 天涯共此时”为主题的的运动会的开幕式举办地点是？",
+        "answer": "第十二届全国少数民族传统体育运动会举办于海南省三亚市体育中心体育场",
+        "response": "",
+        "type": "multi-hop",
+        "source": "news",
+        "domain": "event",
+        "time": "2024.11.27",
+        "url": "https://www.12mzydh.cn/xinwen/2024/show-3606.html"
+    },
+    {
+        "question": "发布了“普惠外贸新动能服务方案”的会议的主办方是？",
+        "answer": "虹桥论坛会员论坛由交通银行主办",
+        "response": "",
+        "type": "multi-hop",
+        "source": "news",
+        "domain": "finance",
+        "time": "2024.11.22",
+        "url": "https://www.financialnews.com.cn/2024-11/22/content_412975.html"
+    },
+    {
+        "question": "哪位运动员历史总收入最高？",
+        "answer": "篮球运动员迈克尔.乔丹。",
+        "response": "",
+        "type": "simple",
+        "source": "news",
+        "domain": "sports",
+        "time": "2024.03.11",
+        "url": "https://news.qq.com/rain/a/20240311A04H8F00"
+    },
+    {
+        "question": "原神是哪个公司的 ",
+        "answer": "《原神》是由上海米哈游网络科技股份有限公司制作发行的一款开放世界冒险游戏 ",
+        "response": "",
+        "type": "condition",
+        "source": "knowledge",
+        "domain": "gaming",
+        "time": "2024.11.19",
+        "url": "https://baike.baidu.com/item/%E5%8E%9F%E7%A5%9E/23583622 "
+    },
+    {
+        "question": "《复仇者联盟 4》中，钢铁侠托尼・斯塔克是如何牺牲的？",
+        "answer": "钢铁侠“托尼”牺牲自己来打响“无限手套”",
+        "response": "",
+        "type": "condition",
+        "source": "knowledge",
+        "domain": "movie",
+        "time": "2019.4.27",
+        "url": "https://baijiahao.baidu.com/s?id=1631959805956585063&wfr=spider&for=pc"
+    },
+    {
+        "question": "今年与神舟十七号乘组实现“太空会师”的三名宇航员中的指令长是谁",
+        "answer": "神舟十八号指令长是叶光富",
+        "response": "",
+        "type": "multi-hop",
+        "source": "news",
+        "domain": "event",
+        "time": "2024.4.25",
+        "url": "https://news.cctv.com/2024/04/26/ARTIcwuRn9u6nfjuznHqDeRT240426.shtml"
+    },
+    {
+        "question": "比较跆拳道和柔道的得分点谁靠击中头部得分？",
+        "answer": "跆拳道主要通过击中对手的头部和身体得分。",
+        "response": "",
+        "type": "comparison",
+        "source": "knowledge",
+        "domain": "sports",
+        "time": "2024.01.09",
+        "url": "https://mbd.baidu.com/newspage/data/dtlandingsuper?nid=dt_5289991054837063590&sourceFrom=search_a"
+    },
+    {
+        "question": "2024年是中美建交多少周年？",
+        "answer": "45周年",
+        "response": "",
+        "type": "simple",
+        "source": "knowledge",
+        "domain": "event",
+        "time": "2024.1.1",
+        "url": "http://www.qstheory.cn/yaowen/2024-01/01/c_1130050822.htm"
+    },
+    {
+        "question": "游戏《文明6》的制作公司是哪个国家的 ",
+        "answer": "2K Games是美国的",
+        "response": "",
+        "type": "multi-hop",
+        "source": "knowledge",
+        "domain": "gaming",
+        "time": "2016.10.21",
+        "url": " https://baike.baidu.com/item/2K%20Games/965001?fromModule=lemma_inlink"
+    },
+    {
+        "question": "第十六届“金海豚奖”颁奖仪式什么时候举行？",
+        "answer": "11月21日",
+        "response": "",
+        "type": "simple",
+        "source": "news",
+        "domain": "gaming",
+        "time": "2024.11.22",
+        "url": "https://dj.sina.com.cn/article/ncwxsyh3844433.shtml"
+    },
+    {
+        "question": "2024年10月全国规模以上工业企业实现利润总额相较于9月哪个更高",
+        "answer": "2024年9月更高",
+        "response": "",
+        "type": "comparison",
+        "source": "news",
+        "domain": "event",
+        "time": "2024.11.27",
+        "url": "http://finance.people.com.cn/n1/2024/1127/c1004-40370383.html"
+    },
+    {
+        "question": "比较男子和女子体操运动员的比赛项目哪个多。",
+        "answer": "男子体操。",
+        "response": "",
+        "type": "comparison",
+        "source": "news",
+        "domain": "sports",
+        "time": "2024.08.13",
+        "url": "https://zhidao.baidu.com/question/2214963810984563468.html"
+    },
+    {
+        "question": "2024年NBA常规赛MVP的国籍？",
+        "answer": "2024年NBA常规赛MVP尼古拉·约基奇的国籍是塞尔维亚。",
+        "response": "",
+        "type": "multi-hop",
+        "source": "knowledge",
+        "domain": "sports",
+        "time": "2024.05.09",
+        "url": "https://baike.baidu.com/item/%E5%B0%BC%E5%8F%A4%E6%8B%89%C2%B7%E7%BA%A6%E5%9F%BA%E5%A5%87/19340296"
+    },
+    {
+        "question": "2024全球熊猫伙伴大会的开幕地点是？",
+        "answer": "四川省成都市",
+        "response": "",
+        "type": "simple",
+        "source": "knowledge",
+        "domain": "event",
+        "time": "2024.11.26",
+        "url": "https://www.chinanews.com.cn/sh/2024/11-26/10326100.shtml"
+    },
+    {
+        "question": "动画制作则由Studio elle承担,由首次担任监督的大西景介执导的于2024年10月14日播出的动画是改编自谁创作的小说？",
+        "answer": "《被逐出队伍的治愈师,其实是最强的》的援原著小说作者是影茸",
+        "response": "",
+        "type": "multi-hop",
+        "source": "news",
+        "domain": "movie",
+        "time": "2024.10.15",
+        "url": "https://www.ali213.net/news/html/2024-10/874135.html"
+    },
+    {
+        "question": "欧洲杯在2024年举行吗？",
+        "answer": "欧洲杯在2024年举行。",
+        "response": "",
+        "type": "simple",
+        "source": "news",
+        "domain": "sports",
+        "time": "2024.11.22",
+        "url": "https://www.sportscalendar.com/2024-important-sports-events"
+    },
+    {
+        "question": "《那个不为人知的故事》和《一闪一闪亮星星》哪个首日票房更高？",
+        "answer": "《一闪一闪亮星星》",
+        "response": "",
+        "type": "comparison",
+        "source": "news",
+        "domain": "movie",
+        "time": "2024.11.15",
+        "url": "https://www.163.com/dy/article/JH2OHPVP05179L72.html"
+    },
+    {
+        "question": "《物质主义者》的故事背景是？",
+        "answer": "当代纽约",
+        "response": "",
+        "type": "simple",
+        "source": "news",
+        "domain": "movie",
+        "time": "2024.11.21",
+        "url": "https://www.3dmgame.com/news/202411/3909114.html"
+    },
+    {
+        "question": "日本动画的播出，一年分哪几个季度？",
+        "answer": "四个季度，分别是1月、4月、7月和10月。",
+        "response": "",
+        "type": "simple",
+        "source": "knowledge",
+        "domain": "movie",
+        "time": "2023.10.15",
+        "url": "https://acg.sohu.com/a/751505839_121769698"
+    },
+    {
+        "question": "2024年端午节假期国内旅游出游统计人次是多少",
+        "answer": "1.1亿人次",
+        "response": "",
+        "type": "simple",
+        "source": "knowledge",
+        "domain": "event",
+        "time": "2024.6.10",
+        "url": "http://zw.china.com.cn/2024-06/12/content_117248319.shtml"
+    },
+    {
+        "question": "承办2024年世界互联网大会乌镇峰会的机构位于什么地理位置？",
+        "answer": "浙江省人民政府位于浙江省杭州市西湖区省府路8号",
+        "response": "",
+        "type": "multi-hop",
+        "source": "news",
+        "domain": "finance",
+        "time": "2024.11.20",
+        "url": "https://www.financialnews.com.cn/2024-11/20/content_412815.html"
+    },
+    {
+        "question": "2024年欧洲杯的吉祥物是什么？",
+        "answer": "2024年欧洲杯的吉祥物名字叫阿尔巴特,是一只泰迪熊的形象。",
+        "response": "",
+        "type": "simple",
+        "source": "news",
+        "domain": "sports",
+        "time": "2024.04.19",
+        "url": "https://www.qtx.com/special/uefaeuro/228725.html"
+    },
+    {
+        "question": "保险在现在现代金融业的地位与作用是什么？",
+        "answer": "保险是现代金融业的重要组成部分，是现代市场经济的基础性制度安排，在强化风险保障、促进经济发展方面具有独特的行业优势。",
+        "response": "",
+        "type": "simple",
+        "source": "knowledge",
+        "domain": "finance",
+        "time": "2024.11.21",
+        "url": "https://www.financialnews.com.cn/2024-11/21/content_412947.html"
+    },
+    {
+        "question": "金融监管总局为了提升老年人金融服务水平发布的《指导意见》是基于哪些国家层面的决策部署提出的？",
+        "answer": "金融监管总局发布的《指导意见》是基于党中央、国务院关于加强新时代老龄工作，发展银发经济增进老年人福祉的决策部署，以及中央金融工作会议精神提出的。",
+        "response": "",
+        "type": "multi-hop",
+        "source": "news",
+        "domain": "finance",
+        "time": "2024.11.14",
+        "url": "https://www.financialnews.com.cn/2024-11/14/content_412417.html"
+    },
+    {
+        "question": "国家外汇管理局局长在2024年国际金融领袖投资峰会提到香港在金融合作中的独特的优势？",
+        "answer": "香港在金融合作中具备与内地经济发展紧密结合的先天优势，以及高度开放、与海外市场接轨的国际优势，这些优势使得香港能够成为连接内地与国际金融市场的桥梁，促进资金、技术和人才的流动，同时也为香港提供了更多的金融业务和投资机会，从而有助于巩固其国际金融中心的地位。",
+        "response": "",
+        "type": "multi-hop",
+        "source": "knowledge",
+        "domain": "finance",
+        "time": "2024.11.22",
+        "url": "https://www.financialnews.com.cn/2024-11/22/content_412969.html"
+    },
+    {
+        "question": "小米su7发布会相关讨论在视频媒体集中度高还是社交媒体集中度高？",
+        "answer": "视频媒体的集中度更高。",
+        "response": "",
+        "type": "comparison",
+        "source": "news",
+        "domain": "event",
+        "time": "2024.3.29",
+        "url": "https://m.civiw.com/business/20240329155433805"
+    },
+    {
+        "question": " 刺客信条起源是哪个工作室开发的",
+        "answer": " 《刺客信条：起源》（Assassin's Creed Origins）是一部由育碧蒙特利尔工作室开发、育碧发行的动作冒险游戏",
+        "response": "",
+        "type": "simple",
+        "source": "knowledge",
+        "domain": "gaming",
+        "time": "2017.10.27",
+        "url": " https://baike.baidu.com/item/%E5%88%BA%E5%AE%A2%E4%BF%A1%E6%9D%A1%EF%BC%9A%E8%B5%B7%E6%BA%90/20798301"
+    },
+    {
+        "question": "2024 LPL冬季转会期窗口，于何时正式开放？",
+        "answer": "LPL冬季转会期窗口，于11月19日正式开放",
+        "response": "",
+        "type": "simple",
+        "source": "news",
+        "domain": "gaming",
+        "time": "2024.11.22",
+        "url": "https://news.qq.com/rain/a/20241122A040FR00"
+    },
+    {
+        "question": "第十七届中国国际漫画节及动漫游戏展何时举行？",
+        "answer": "10月2日到5日",
+        "response": "",
+        "type": "simple",
+        "source": "news",
+        "domain": "gaming",
+        "time": "2024.10.7",
+        "url": "https://news.qq.com/rain/a/20241007A00WJ400"
+    },
+    {
+        "question": "2024年中非合作论坛峰会在哪里举行",
+        "answer": "北京",
+        "response": "",
+        "type": "condition",
+        "source": "knowledge",
+        "domain": "event",
+        "time": "2024.9.4",
+        "url": "https://2024focacsummit.mfa.gov.cn/"
+    },
+    {
+        "question": "比较室内排球和沙滩排球的场地和规则哪个有发球区的限制。",
+        "answer": "室内排球。",
+        "response": "",
+        "type": "comparison",
+        "source": "news",
+        "domain": "sports",
+        "time": "2023.09.20",
+        "url": "https://tyj.np.gov.cn/cms/html/npstyj/2023-09-20/1149810916.html"
+    },
+    {
+        "question": "2024年10月银行是结汇多还是售汇多？",
+        "answer": "银行结汇15378亿元人民币，售汇14081亿元人民币，结汇更多。",
+        "response": "",
+        "type": "comparison",
+        "source": "news",
+        "domain": "finance",
+        "time": "2024.11.18",
+        "url": "https://www.financialnews.com.cn/2024-11/18/content_412583.html"
+    },
+    {
+        "question": "哪位网球运动员保持着大满贯单打冠军数量最多的记录？",
+        "answer": "男子网球运动员德约科维奇保持着大满贯单打冠军数量最多的记录,获得过24个大满贯单打冠军。",
+        "response": "",
+        "type": "simple",
+        "source": "news",
+        "domain": "sports",
+        "time": "2023.09.11",
+        "url": "https://news.qq.com/rain/a/20230911A015UY00"
+    },
+    {
+        "question": "在中国举办的服贸会有多少国家设展",
+        "answer": "85个国家",
+        "response": "",
+        "type": "condition",
+        "source": "news",
+        "domain": "event",
+        "time": "2024.8.13",
+        "url": "https://finance.cnr.cn/gstj/20240917/t20240917_526906928.shtml"
+    }
+]
