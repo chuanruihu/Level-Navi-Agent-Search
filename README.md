@@ -2,7 +2,7 @@
 
 This repository is the official repository for the paper Level-Navi Agent: A Benchmark and Framework for Chinese Web Search Agents.
 
-## 🌐 项目简介
+## 🌐 Project Introduction
 
 Level-Navi Agent is an open-source, general-purpose web search agent framework where any open or closed-source model can be deployed. Our agent is capable of breaking down and understanding complex questions, iteratively searching for information on the internet step by step, until it can answer the user's original question.
 
