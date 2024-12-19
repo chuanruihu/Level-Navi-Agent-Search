@@ -45,9 +45,9 @@ class QihooWebSearch(BaseSearch):
     def __init__(self, 
                  topk: int=5,
                  api_key: str='',
-                 key: str= "597ff7ec4a69ec",
-                 url:str="https://api.360.cn/v2/mwebsearch",
-                 cid: str="saas_360zhengqi",
+                 key: str= "",
+                 url:str="",
+                 cid: str="",
                  black_list: List[str] = [
                      'enoN',
                      'youtube.com',
@@ -134,7 +134,7 @@ class QihooWebSearch(BaseSearch):
 class BingSearch(BaseSearch):
 
     def __init__(self,
-                 api_key: str = "4ebc523f056e49719f241404bd53448c",
+                 api_key: str = "",
                  region: str = 'zh-CN',
                  topk: int = 3,
                  black_list: List[str] = [
