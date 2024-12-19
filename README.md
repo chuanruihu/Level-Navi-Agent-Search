@@ -2,7 +2,7 @@
 
 This repository is the official repository for the paper Level-Navi Agent: A Benchmark and Framework for Chinese Web Search Agents.
 
-[English](README.md) | [中文](README_ZH.md)
+[English](README.md) | [中文](README_zh-CN.md)
 
 ## 🌐 Project Introduction
 
