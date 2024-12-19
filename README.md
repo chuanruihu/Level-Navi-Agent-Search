@@ -46,7 +46,7 @@ Here we provide some model test results, and more comprehensive experiments and 
 
 ## 📝 Quick Start
 
-按照以下步骤快速启动项目：
+Follow these steps to quickly launch the project:
 
 ### 1. Clone the Project
 
