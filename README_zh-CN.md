@@ -8,8 +8,8 @@ Level-Navi Agent是一个开源通用的网络搜索agent框架，任何开源�
 
 <div style="text-align: center;">
     <figure style="display: inline-block; text-align: center;">
-        <img src="asset/first.png" width="70%">
-        <figcaption>Level-Navi Agent的框架</figcaption>
+        <img src="asset/first.png" width="50%">
+        <figcaption>*Level-Navi Agent的框架</figcaption>
     </figure>
 </div>
 
@@ -17,8 +17,8 @@ Level-Navi Agent是一个开源通用的网络搜索agent框架，任何开源�
 
 <div style="text-align: center;">
     <figure style="display: inline-block; text-align: center;">
-        <img src="asset/data.png" width="70%">
-        <figcaption>Web24数据集的构成</figcaption>
+        <img src="asset/data.png" width="40%">
+        <figcaption>*Web24数据集的构成</figcaption>
     </figure>
 </div>
 
@@ -204,7 +204,7 @@ bash llm_eval_terminal.sh
 如果我们的项目对您的研究/工作有启发，请以如下格式引用：
 
 ```
-@article{chen2024mindsearch,
+@article{,
   title={},
   author={},
   journal={},
