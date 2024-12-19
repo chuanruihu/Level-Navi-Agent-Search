@@ -2,6 +2,8 @@
 
 本仓库是 *[Level-Navi Agent: A Benchmark and Framework for Chinese Web Search Agents](xxx)* 论文的官方仓库。
 
+[中文](README_zh-CN.md)|[English](README.md)
+
 ## 🌐 项目简介
 
 Level-Navi Agent是一个开源通用的网络搜索agent框架，任何开源闭源模型都可以在本框架内进行部署。我们的agent能够拆分理解复杂问题，一步步迭代搜索互联网上的信息，直到能够回答用户最初的问题。
