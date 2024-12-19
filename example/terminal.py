@@ -18,16 +18,16 @@ env_path = os.path.join(project_root, 'config', '.env')
 load_dotenv(dotenv_path=env_path)
 
 def main():
-    llm = VllmServer(
-        model_name="qwen2.5-7b-instruct",
-        api_key="fk251639865.xTU0vtdqU1QB7d9zni9bV6KDk8P_hzI-82b761ed",
-        api_base="http://api.360.cn/v1",
-    )
     # llm = VllmServer(
-    #     model_name=os.getenv("MODEL_NAME"),
-    #     api_key=os.getenv("API_KEY"),
-    #     api_base=os.getenv("API_BASE"),
+    #     model_name="qwen2.5-7b-instruct",
+    #     api_key="",
+    #     api_base="",
     # )
+    llm = VllmServer(
+        model_name=os.getenv("MODEL_NAME"),
+        api_key=os.getenv("API_KEY"),
+        api_base=os.getenv("API_BASE"),
+    )
     tool_info, tool_map = ActionExecutor.get_tool_info(SearchAction, SelectAction)
     agent = PlanningAgent(
         llm,
