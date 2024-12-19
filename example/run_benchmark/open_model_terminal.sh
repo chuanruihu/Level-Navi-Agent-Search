@@ -16,20 +16,12 @@ fi
 export HF_ENDPOINT=https://hf-mirror.com
 export HF_HUB_ENABLE_HF_TRANSFER=1
 
-source /mnt/workspace/xulifeng_work/bin/activate langgraph
 # 定义模型相关参数
-# MODEL_NAME_OR_PATH=/mnt/workspace/pretrain_model/meta-llama/Meta-Llama-3.1-8B-Instruct
-MODEL_NAME_OR_PATH=/mnt/workspace/wangbaoxin_wkspace/model/Qwen_128k/Qwen2.5-7B-Instruct-128k
+MODEL_NAME_OR_PATH=Qwen/Qwen2.5-7B-Instruct
 SERVER_MODEL=$(basename "$MODEL_NAME_OR_PATH")
 
 echo "MODEL_NAME_OR_PATH: $MODEL_NAME_OR_PATH"
 echo "SERVER_MODEL: $SERVER_MODEL"
-
-# Start vllm server in the background and redirect output to a log file
-# --enable-auto-tool-choice \
-# --tool-call-parser hermes \
-# --trust-remote-code \
-# --chat-template /mnt/workspace/xieshichong/Agent_v2/glm_template.jinja \
 
 # 定义服务端口范围
 START_PORT=8001
