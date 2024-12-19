@@ -6,7 +6,6 @@ WORK_DIR="$(realpath "$SCRIPT_DIR/../..")"
 export HF_ENDPOINT=https://hf-mirror.com
 export HF_HUB_ENABLE_HF_TRANSFER=1
 
-source /mnt/workspace/xulifeng_work/bin/activate ai_search
 NUM_SERVICES=1
 
 EVAL_FOLDER_PATH=${WORK_DIR}/data/metrics_rlts/model_api
