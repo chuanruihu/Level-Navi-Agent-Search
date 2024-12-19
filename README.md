@@ -9,7 +9,7 @@ Level-Navi Agent is an open-source, general-purpose web search agent framework w
 <div style="text-align: center;">
     <figure style="display: inline-block; text-align: center;">
         <img src="asset/first.png" width="70%">
-        <figcaption>Level-Navi Agent的框架</figcaption>
+        <figcaption>Framework of Level-Navi Agent</figcaption>
     </figure>
 </div>
 
@@ -18,7 +18,7 @@ To comprehensively evaluate the performance of various models on web search task
 <div style="text-align: center;">
     <figure style="display: inline-block; text-align: center;">
         <img src="asset/data.png" width="70%">
-        <figcaption>Web24数据集的构成</figcaption>
+        <figcaption>Web24 Dataset Composition</figcaption>
     </figure>
 </div>
 
