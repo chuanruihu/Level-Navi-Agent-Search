@@ -1,9 +1,7 @@
 #!/bin/bash
-source /mnt/workspace/envs/wbx_llama/bin/activate
-export CUDA_VISIBLE_DEVICES=7
+export CUDA_VISIBLE_DEVICES=0
 
-MODEL_NAME_OR_PATH=/mnt/workspace/pretrain_model/qwen2/qwen/Qwen2.5-7B-Instruct
-# MODEL_NAME_OR_PATH=/mnt/workspace/wangbaoxin_wkspace/LLaMA-Factory/models/qwen2_5_full_mindsearch_template_v4_only_graph
+MODEL_NAME_OR_PATH=Qwen/Qwen2.5-7B-Instruct
 SERVER_MODEL=$(basename "$MODEL_NAME_OR_PATH")
 
 echo "MODEL_NAME_OR_PATH: $MODEL_NAME_OR_PATH"
