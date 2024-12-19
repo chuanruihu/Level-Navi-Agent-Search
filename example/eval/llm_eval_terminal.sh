@@ -16,31 +16,27 @@ fi
 export HF_ENDPOINT=https://hf-mirror.com
 export HF_HUB_ENABLE_HF_TRANSFER=1
 
-source /mnt/workspace/xulifeng_work/bin/activate langgraph
 NUM_SERVICES=8
 
-# SERVER_MODEL=qwen2.5-72b-instruct
 SERVER_MODEL=$EVALUATOR_NAME
-# API_KEY=fk251639865.xTU0vtdqU1QB7d9zni9bV6KDk8P_hzI-82b761ed
 
 API_BASES=()
 for ((i=0; i<NUM_SERVICES; i++)); do
-    # API_BASES+=("http://api.360.cn/v1")
     API_BASES+=($API_BASES)
 done
 echo "SERVER_MODEL: $SERVER_MODEL"
 
-EMBEDDING_NAME_OR_PATH=/mnt/workspace/pretrain_model/BAAI/bge-large-zh-v1.5
+EMBEDDING_NAME_OR_PATH=BAAI/bge-large-zh-v1.5
 EMBEDDING_MODEL=$(basename "$EMBEDDING_NAME_OR_PATH")
 echo "EMBEDDING_MODEL: $EMBEDDING_MODEL"
 
 EVAL_FOLDER_PATH=${WORK_DIR}/data/metrics_rlts/model_api
 # 手动选择
-EVAL_FILE_NAME=(
-    "moonshot-v1-128k.jsonl" \
-)
+# EVAL_FILE_NAME=(
+#     "moonshot-v1-128k.jsonl" \
+# )
 # 自动选择
-# EVAL_FILE_NAME=($(find "$EVAL_FOLDER_PATH" -maxdepth 1 -type f -name "*.jsonl" -exec basename {} \;))
+EVAL_FILE_NAME=($(find "$EVAL_FOLDER_PATH" -maxdepth 1 -type f -name "*.jsonl" -exec basename {} \;))
 
 for FILE_NAME in "${EVAL_FILE_NAME[@]}"
 do
