@@ -53,7 +53,7 @@ Follow these steps to quickly launch the project:
 Follow these steps to quickly start the project:
 
 ```bash
-git clone [project address]
+git clone https://github.com/chuanruihu/Level-Navi-Agent-Search.git
 ```
 
 ### 2. Set Up Environment
@@ -69,7 +69,7 @@ conda create --name ai_search python=3.11
 Enter the project directory and install dependencies:
 
 ```bash
-cd [project directory]
+cd Level-Navi-Agent-Search
 pip install -r requirements.txt
 ```
 
