@@ -6,11 +6,10 @@ WORK_DIR="$(realpath "$SCRIPT_DIR/../..")"
 export HF_ENDPOINT=https://hf-mirror.com
 export HF_HUB_ENABLE_HF_TRANSFER=1
 
-source /mnt/workspace/xulifeng_work/bin/activate langgraph
 NUM_SERVICES=4
 # 定义模型相关参数
 SERVER_MODEL=moonshot-v1-128k
-API_KEY=fk251639865.xTU0vtdqU1QB7d9zni9bV6KDk8P_hzI-82b761ed
+API_KEY=
 API_BASES=()
 for ((i=0; i<NUM_SERVICES; i++)); do
     API_BASES+=("http://api.360.cn/v1")
