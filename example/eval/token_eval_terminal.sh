@@ -9,9 +9,12 @@ export HF_HUB_ENABLE_HF_TRANSFER=1
 NUM_SERVICES=1
 
 EVAL_FOLDER_PATH=${WORK_DIR}/data/metrics_rlts/model_api
-EVAL_FILE_NAME=(
-    "deepseek-chat.jsonl" \
-)
+# 手动选择
+# EVAL_FILE_NAME=(
+#     "moonshot-v1-128k.jsonl" \
+# )
+# 自动选择
+EVAL_FILE_NAME=($(find "$EVAL_FOLDER_PATH" -maxdepth 1 -type f -name "*.jsonl" -exec basename {} \;))
 
 for FILE_NAME in "${EVAL_FILE_NAME[@]}"
 do
