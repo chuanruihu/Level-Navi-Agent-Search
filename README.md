@@ -204,7 +204,7 @@ bash llm_eval_terminal.sh
 
 If our project has inspired your research/work, please cite it in the following format:
 ```
-@article{chen2024mindsearch,
+@article{,
   title={},
   author={},
   journal={},
