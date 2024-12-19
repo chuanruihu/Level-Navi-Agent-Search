@@ -2,17 +2,29 @@
 
 SCRIPT_DIR="$(dirname "$0")"
 WORK_DIR="$(realpath "$SCRIPT_DIR/../..")"
+ENV_PATH=$WORK_DIR/config/.env
+
+# 检查并加载 .env 文件
+if [ -f "$ENV_PATH" ]; then
+  export $(grep -v '^#' "$ENV_PATH" | xargs)
+  echo ".env file loaded from $ENV_PATH"
+else
+  echo "Error: .env file not found at $ENV_PATH"
+  exit 1
+fi
+
+# 使用 API_KEY 变量
+echo "API_KEY is $API_KEY"
 
 export HF_ENDPOINT=https://hf-mirror.com
 export HF_HUB_ENABLE_HF_TRANSFER=1
 
 NUM_SERVICES=4
 # 定义模型相关参数
-SERVER_MODEL=moonshot-v1-128k
-API_KEY=
+SERVER_MODEL=$MODEL_NAME
 API_BASES=()
 for ((i=0; i<NUM_SERVICES; i++)); do
-    API_BASES+=("http://api.360.cn/v1")
+    API_BASES+=($API_BASE)
 done
 
 echo "SERVER_MODEL: $SERVER_MODEL"
