@@ -52,7 +52,7 @@ Level-Navi Agent是一个开源通用的网络搜索agent框架，任何开源�
 首先，克隆项目到本地：
 
 ```bash
-git clone 项目地址
+git clone https://github.com/chuanruihu/Level-Navi-Agent-Search.git
 ```
 
 ### 2. 建立环境
@@ -68,7 +68,7 @@ conda create --name ai_search python=3.11
 进入项目目录并安装依赖：
 
 ```bash
-cd 项目目录
+cd Level-Navi-Agent-Search
 pip install -r requirements.txt
 ```
 
