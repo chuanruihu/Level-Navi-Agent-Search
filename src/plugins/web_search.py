@@ -144,7 +144,7 @@ class BingSearch(BaseSearch):
                      'researchgate.net',
                  ],
                  **kwargs):
-        self.api_key = api_key
+        self.api_key = os.getenv("BING_API")
         self.market = region
         self.proxy = kwargs.get('proxy')
         super().__init__(topk, black_list)
