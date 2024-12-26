@@ -206,10 +206,10 @@ bash llm_eval_terminal.sh
 
 If our project has inspired your research/work, please cite it in the following format:
 ```
-@article{,
-  title={},
-  author={},
-  journal={},
-  year={2024}
+@misc{202412.00330Level,
+    author = {Chuanrui Hu and Shichong Xie and Baoxin Wang and Bin Chen and Xiaofeng Cong and Jun Zhang},
+    title = {Level-Navi Agent: A Framework and benchmark for Chinese Web Search Agents},
+    year = {2024},
+    eprint = {https://chinaxiv.org/abs/202412.00330},
 }
 ```
