@@ -1,6 +1,6 @@
 # Level-Navi Agent
 
-This repository is the official repository for the paper [*Level-Navi Agent: A Benchmark and Framework for Chinese Web Search Agents*](xxx).
+This repository is the official repository for the paper [*Level-Navi Agent: A Benchmark and Framework for Chinese Web Search Agents*](https://chinaxiv.org/user/view.htm?uuid=6cff63a4-fdbd-4ec4-9501-8d1d688c8272&filetype=pdf).
 
 [English](README.md) | [中文](README_zh-CN.md)
 
@@ -24,7 +24,7 @@ To comprehensively evaluate the performance of various models on web search task
     </figure>
 </div>
 
-Here we provide some model test results, and more comprehensive experiments and analysis can be obtained in the [paper](xxx).
+Here we provide some model test results, and more comprehensive experiments and analysis can be obtained in the [paper](https://chinaxiv.org/user/view.htm?uuid=6cff63a4-fdbd-4ec4-9501-8d1d688c8272&filetype=pdf).
 
 
 | Model               | Few-shot    | $S_{final}$ | $S_{co}$ | $S_{rele}$ | $S_{simi}$ | $S_c$ | Pass rate |
