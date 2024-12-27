@@ -1,6 +1,6 @@
 # Level-Navi Agent
 
-本仓库是 *[Level-Navi Agent: A Benchmark and Framework for Chinese Web Search Agents](xxx)* 论文的官方仓库。
+本仓库是 *[Level-Navi Agent: A Benchmark and Framework for Chinese Web Search Agents](https://chinaxiv.org/user/view.htm?uuid=6cff63a4-fdbd-4ec4-9501-8d1d688c8272&filetype=pdf)* 论文的官方仓库。
 
 [中文](README_zh-CN.md)|[English](README.md)
 
@@ -24,7 +24,7 @@ Level-Navi Agent是一个开源通用的网络搜索agent框架，任何开源�
     </figure>
 </div>
 
-这里我们提供了部分模型的测试结果，更全面的实验和分析可以在[论文](xxx)中获取。
+这里我们提供了部分模型的测试结果，更全面的实验和分析可以在[论文](https://chinaxiv.org/user/view.htm?uuid=6cff63a4-fdbd-4ec4-9501-8d1d688c8272&filetype=pdf)中获取。
 
 | Model               | Few-shot    | $S_{final}$ | $S_{co}$ | $S_{rele}$ | $S_{simi}$ | $S_c$ | Pass rate |
 |---------------------|-------------|-------------|----------|------------|------------|-------|-----------|
