@@ -194,4 +194,44 @@ class BingSearch(BaseSearch):
 
         return self._filter_results(raw_results)
 
+
+class YouSearch(BaseSearch):
+    def __init__(self, api_key: str = "", region: str = 'EN', topk: int = 3,
+                 black_list: List[str] = ['enoN', 'youtube.com', 'bilibili.com', 'researchgate.net'],
+                 **kwargs):
+        self.api_key = api_key or os.getenv("YDC_API_KEY", "")
+        self.language = region
+        self.endpoint = kwargs.get('endpoint', 'https://api.you.com/v1/agents/search')
+        self.timeout = kwargs.get('timeout', 15)
+        super().__init__(topk, black_list)
+
+    @cached(cache=TTLCache(maxsize=100, ttl=600))
+    def search(self, query: str, max_retry: int = 3) -> dict:
+        for attempt in range(max_retry):
+            try:
+                response = self._call_you_api(query)
+                return self._parse_response(response)
+            except Exception as e:
+                logging.exception(str(e))
+                warnings.warn(f'Retry {attempt + 1}/{max_retry} due to error: {e}')
+                time.sleep(random.randint(2, 5))
+        raise Exception('Failed to get search results from you.com Search API after retries.')
+
+    def _call_you_api(self, query: str) -> dict:
+        params = {'query': query, 'count': f'{self.topk * 2}', 'language': self.language}
+        headers = {}
+        if self.api_key:
+            headers['X-API-Key'] = self.api_key
+        response = requests.get(self.endpoint, headers=headers, params=params, timeout=self.timeout)
+        response.raise_for_status()
+        return response.json()
+
+    def _parse_response(self, response: dict) -> dict:
+        raw_results = []
+        for item in response.get('results', {}).get('web', []):
+            snippets = item.get('snippets') or []
+            snippet = snippets[0] if snippets else item.get('description', '')
+            raw_results.append((item.get('url', ''), snippet or '', item.get('title', '')))
+        return self._filter_results(raw_results)
+
     

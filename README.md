@@ -75,7 +75,26 @@ pip install -r requirements.txt
 
 ### 4. Configure Search Engine API
 
-Obtain a [Bing API Key](https://www.microsoft.com/en-us/bing/apis/bing-web-search-api)，and configure it in the configuration file(config/.env)(`BING_API`)
+Default provider is Bing. Obtain a [Bing API Key](https://www.microsoft.com/en-us/bing/apis/bing-web-search-api)，and configure it in `config/.env` as `BING_API`.
+
+You can also use you.com Search API as an optional provider:
+
+- Endpoint: `https://api.you.com/v1/agents/search`
+- API key env var: `YDC_API_KEY` (optional for low-volume free-tier usage, recommended for reliability)
+- Select provider via CLI: `--search_provider you`
+
+Example:
+
+```bash
+python src/ai_search/search.py \
+  --input_path data/your_input.jsonl \
+  --save_path data/output.jsonl \
+  --search_provider you
+```
+
+Fallback behavior:
+- If `YDC_API_KEY` is missing, requests are sent without auth header.
+- Network/API errors are retried with backoff before returning failure.
 
 ### 5. API/Local Mode
 
