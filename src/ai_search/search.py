@@ -17,7 +17,7 @@ sys.path.append(project_root)
 
 from util import ResultSaves
 from serve import VllmServer
-from plugins import QihooWebSearch, BingSearch
+from plugins import QihooWebSearch, BingSearch, YouSearch
 from actions import ActionExecutor, SearchAction, SelectAction
 from component import PlanningAgent, SearcherAgent, SearchDistributor
 
@@ -30,6 +30,7 @@ def parse_args():
     parser.add_argument('--input_path', required=True, type=str, help="Path to the input data file")
     parser.add_argument('--save_path', required=True, type=str, help="Base path for saving results")
     parser.add_argument('--debug', action='store_true', help="Enable debug mode")
+    parser.add_argument('--search_provider', type=str, default='bing', choices=['bing', 'you'], help='Web search provider')
     return parser.parse_args()
 
 
@@ -85,12 +86,14 @@ def run_agent_instance(model_name, api_key, api_base, dataset, save_path, debug,
     )
     tool_info, tool_map = ActionExecutor.get_tool_info(SearchAction, SelectAction)
 
+    search_class = BingSearch if os.getenv('SEARCH_PROVIDER', 'bing').lower() == 'bing' else YouSearch
+
     agent = PlanningAgent(
         llm,
         SearchDistributor(
             searcher_type=SearcherAgent,
             llm=llm,
-            searcher_class=BingSearch,
+            searcher_class=search_class,
             tool_info=tool_info,
             tool_map=tool_map,
         ),
@@ -115,6 +118,7 @@ def run_agent_instance(model_name, api_key, api_base, dataset, save_path, debug,
 
 def main():
     args = parse_args()
+    os.environ['SEARCH_PROVIDER'] = args.search_provider.lower()
     if args.num_processes <= 0:
         parser.error("--num_processes must be greater than 0")
 
