@@ -1,0 +1,9 @@
+# Lightweight dependencies for example/parallel_search.py (Python 3.11+).
+# The full agent still uses requirements.txt and its model configuration.
+beautifulsoup4==4.12.3
+cachetools==5.5.0
+Requests==2.32.3
+json5==0.9.25
+termcolor==2.5.0
+httpx==0.28.1
+mcp==1.30.0
