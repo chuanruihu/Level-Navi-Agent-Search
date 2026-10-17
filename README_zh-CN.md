@@ -76,6 +76,9 @@ pip install -r requirements.txt
 
 获取[Bing API Key](https://www.microsoft.com/en-us/bing/apis/bing-web-search-api)，并配置到[配置文件](config/.env)(`BING_API`)中
 
+可选的 [Parallel 搜索配置指南](docs/parallel-search.md)提供无需账户或 API Key 的
+搜索方式，包含轻量的 `SearchAction` 示例及 agent 配置方法。现有默认搜索配置保持不变。
+
 ### 5. API/本地模型
 
 #### API部署

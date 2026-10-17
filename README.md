@@ -96,6 +96,10 @@ Fallback behavior:
 - If `YDC_API_KEY` is missing, requests are sent without auth header.
 - Network/API errors are retried with backoff before returning failure.
 
+For an optional search provider with no account or API key, see
+[Parallel Search setup](docs/parallel-search.md), including a lightweight
+`SearchAction` example and instructions for selecting it in the agent.
+
 ### 5. API/Local Mode
 
 #### API Deployment
